@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">Rishav's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#achievements">Achievements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+
+            <p>Welcome to My Portfolio Website</p>
+
+
+            <h1>cout<< " Hi I am <span class=" name"><strong>Rishav</strong></span> " ;</h1>
+
+
+            <h3><span id="element2"></span></h3>
+            <!-- Element to contain animated typing -->
+            <!-- Load library from the CDN -->
+            <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+            <!-- Setup and start animation! -->
+            <script>
+                var typed = new Typed('#element2', {
+                    strings: ['<i>a graduate</i>', '<i>a programmer.</i>'],
+                    typeSpeed: 50,
+                    loop: true,
+                });
+
+
+            </script>
+
+
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2><i class="fa-solid fa-address-card" style="font-size:1.3rem;position:relative;bottom:2px;"></i> About Me
+            </h2>
+            <div class="row">
+                <div class="col-md-2 pe-0">
+                    <img class="img-fluid rounded" src="images/pic.jpg" alt="my_pic">
+                    <div id="extras" class="pe-5">
+                        <p>
+                            DOB: 22/06/2001<br>Languages: English,Hindi<br>Hobbies: Sports,Dance
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-10 ps-0 desc">
+                    <p>A graduate student who is passionate about learning and seeking corporate experience to imply the
+                        skills
+                        learned through educational knowledge and to improvise the skills into expertise goals. Young
+                        and matured individual
+                        with developed skills and personal attributes that will support the transition from education to
+                        full-time employment.</p>
+                    <h4 class="pt-3 mb-4"><i class="fa-solid fa-user-graduate"
+                            style="font-size:1.3rem;position:relative;bottom:2px;"></i> Education</h4>
+                    <div class="d-flex justify-content-start ">
+                        <div class="row">
+
+                            <div class="card col-md-4 me-5">
+                                <div class="card-header">Bachelors of Engineering</div>
+                                <div class="card-body">Ramaiah Institute of Technology, Bengaluru<br>Year of Passing:
+                                    2023
+                                </div>
+                                <div class="card-footer">CGPA: 9.37</div>
+                            </div>
+                            <div class="card col-md-3 me-5 ">
+                                <div class="card-header">Class 12</div>
+                                <div class="card-body">DAV Public School, Asansol<br>Year of Passing: 2019</div>
+                                <div class="card-footer">Percentage: 88.6%</div>
+                            </div>
+                            <div class="card col-md-3">
+                                <div class="card-header">Class 10</div>
+                                <div class="card-body">DAV Public School, Asansol<br>Year of Passing: 2017</div>
+                                <div class="card-footer">CGPA: 9.6</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2><i class="fa-solid fa-book-open" style="font-size:1.3rem;position:relative;bottom:2.5px;"></i> Projects
+            </h2>
+            <div class="project-list">
+                <div class="project">
+                    <div class="project-details">
+                        <h3>Personal Portfolio Website</h3>
+                        <hr>
+                        <p>The project involved building a responsive and visually appealing personal portfolio website
+                            using HTML, CSS, JavaScript, and Bootstrap. It aimed to present educational background,
+                            projects, certifications, and achievements effectively. The focus was on smooth navigation,
+                            proper layout, and optimal user experience. JavaScript added interactivity and
+                            functionality, while ensuring a professional and engaging showcase of the individual's
+                            profile and accomplishments. </p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-details">
+                        <h3>Newsify: A Dynamic News App</h3>
+                        <hr>
+                        <p>The project is a News App that fetches and displays news articles from the News API
+                            based on different categories such as IPL, Finance, and Politics. It allows users to
+                            navigate between categories, search for specific news topics, and view detailed information
+                            for each article. The app utilizes HTML, CSS, and JavaScript to create a responsive user
+                            interface with a navigation bar, search functionality, and a card-based layout for
+                            displaying news articles.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-details">
+                        <h3>Bike Sales Analysis</h3>
+                        <hr>
+                        <p>The project involved cleaning and preparing a dataset for analysis. It utilized Pivot Tables
+                            to analyze different parameters and created a visually appealing dashboard for data
+                            visualization. The project aimed to gain insights into bike sales trends and provide
+                            valuable information for decision-making.</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container certifications">
+            <h2><i class="fa-solid fa-certificate" style="font-size:1.3rem;position:relative;bottom:2px;"></i>
+                Certifications</h2>
+            <!-- Certifications list here -->
+            <ol>
+
+                <li>
+                    <h5 data-bs-toggle="collapse" data-bs-target="#certi1">GeeksforGeeks-Complete Interview
+                        Preparartion*<i class="fa-solid fa-caret-down"></i>
+                    </h5>
+                    <p class="collapse" id="certi1">Course contents: c++, data structures and algorithm, dbms, sql,
+                        aptitude and
+                        logical reasoning</p>
+                </li>
+                <li>
+                    <h5 data-bs-toggle="collapse" data-bs-target="#certi2">Coursera- HTML, CSS, and Javascript for
+                        Web
+                        Developers by Johns Hopkins University<i class="fa-solid fa-caret-down"></i></h5>
+                    <p class="collapse" id="certi2">Course contents: HTML, CSS, Bootstrap, JavaScript, DOM
+                        Manipulation, AJAX</p>
+                </li>
+
+                <li>
+                    <h5 data-bs-toggle="collapse" data-bs-target="#certi3">Coursera-SQL: A Practical Introduction for
+                        Querying Databases by IBM<i class="fa-solid fa-caret-down"></i></h5>
+                    <p class="collapse" id="certi3">Course contents: Relational Database and entity relationship
+                        model, SQL commands, Aggregate functions, Group by
+                        clause, Joins, Subqueries and Stored Procedure
+                    </p>
+                </li>
+
+                <li>
+                    <h5 data-bs-toggle="collapse" data-bs-target="#certi4">Simplilearn-Business Analytics with Excel<i
+                            class="fa-solid fa-caret-down"></i>
+                    </h5>
+                    <p class="collapse" id="certi4">Course contents: Data Cleaning and preperation, Analyzing
+                        data using Pivot table, Dashboarding, Business Analytics
+                        with excel, Data Analysis using Statistics
+                    </p>
+                </li>
+                <li>
+                    <h5 data-bs-toggle="collapse" data-bs-target="#certi5">Simplilearn- GIT Training<i
+                            class="fa-solid fa-caret-down"></i></h5>
+                    <p class="collapse" id="certi5">Course content: Git Basics, Git Workflow, Git Branching and
+                        Merging, Git Teamwork</p>
+                </li>
+
+                <li>
+                    <h5 data-bs-toggle="collapse" data-bs-target="#certi6">Coursera-UX Design: From Concept to
+                        Prototype by University of Michigan<i class="fa-solid fa-caret-down"></i></h5>
+                    <p class="collapse" id="certi6">
+                        Course contents: Intro to design process, Ideation, Design
+                        Constraints and making choices, Building blocks for user
+                        interaction, Low to High Fidelity Prototyping
+                    </p>
+                </li>
+
+
+            </ol>
+
+
+        </div>
+    </section>
+
+
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2><i class="fa-solid fa-award" style="font-size:1.3rem;position:relative;bottom:2.5px;"></i> Achievements
+            </h2>
+            <!-- Achievements list here -->
+            <div class="row">
+                <div class="col-md-6 pe-5 achievements-lists">
+                    <ul>
+                        <li>
+                            <h5>Awarded as the "Best Student" of the department for the year 2022-23.</h5>
+                        </li>
+                        <li>
+                            <h5>Awarded as the "Best Project" of the department for the year 2022-23.</h5>
+                        </li>
+                        <li>
+                            <h5>Awarded with Certification of Appreciation for "Leadership and coordinating skills" by
+                                the Cultural Department.</h5>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-5 rounded-circle slide-div">
+
+
+                    <!-- Carousel -->
+                    <div id="demo" class="carousel slide " data-bs-ride="carousel">
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/1.jpg" alt="Los Angeles" class="d-block ">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2.jpg" alt="Chicago" class="d-block ">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="next">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section d-block">
+        <div class="container contactDIV">
+            <h2 class="text-center">Contact Me</h2>
+            <form id="contact-form" class="contact-form" action="/" method="POST" onreset="resetForm()"
+                onsubmit="return validateForm()">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter full name"
+                        required>
+                    <b><span class="formError"></span></b>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter your mail id"
+                        required>
+                    <b><span class="formError"></span></b>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" class="form-control"
+                        placeholder="Type the reason for contacting...." required></textarea>
+                    <b><span class="formError"></span></b>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-primary">Reset</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <i class="fa-brands fa-linkedin"></i><a href="" class="refLink">Linkedin</a>|
+                <i class="fa-brands fa-instagram"></i><a href="" class="refLink">Instagram</a>
+            </p>
+            <p>&copy; 2023 Rishav Jain. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

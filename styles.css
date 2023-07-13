@@ -1,0 +1,355 @@
+/* --------------------------Global Styles---------------------------------------- */
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+/* ------------------------------Navbar------------------------------------------- */
+.navbar {
+  background-color: #343a40;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0px 2px 2px #a7a1a1;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+  color: #343a40;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: #a7a1a1;
+}
+
+/*----------------------------------------- Hero Section---------------------------- */
+.hero {
+  background-color: #343a40;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero div {
+  height: 160px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.name {
+  color: #bba9a9;
+}
+
+/*----------------------------------------- About Me section -----------------------------*/
+#about .img-fluid {
+  height: 200px;
+  width: 170px;
+  box-shadow: 0px 2px 2px #868282;
+  border: 1px solid rgb(39, 38, 38);
+}
+
+#about p {
+  text-align: justify;
+  line-height: 1.8rem;
+  position: relative;
+  top: 10px;
+}
+
+#extras p {
+  font-size: 0.8rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.card {
+  text-align: center;
+  box-shadow: 0px 2px 2px #868282;
+  transition:transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 5px #868282;
+  transform:scaleY(1.1);
+}
+
+/*------------------------------------------------ Sections -------------------------------------*/
+.section {
+  padding: 70px 0 40px 0px;
+}
+
+.section h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+
+
+/*------------------------------------------ Project Section Styles-------------------------------------- */
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.project {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+  transform: translateY(-10px);
+}
+
+.project-details h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.project-details p {
+  font-size: 15px;
+  color: #555;
+  text-align: justify;
+
+}
+
+
+/* ---------------------------------------Certifications Section----------------------------- */
+.certifications h5 {
+  cursor: pointer;
+  padding: 10px 0;
+  /* text-indent: 10px; */
+}
+
+.certifications h5:hover {
+  background-color: #e4dcdc;
+  border-radius: 10px 10px;
+  transform: translateY(-0.3rem);
+}
+
+.certifications p {
+  text-indent: 2rem;
+}
+
+.fa-caret-down{
+  font-size:1rem;
+  position:relative;
+  left:0.4rem;
+}
+
+
+/*--------------------------------------- Achievements Section ------------------------------------*/
+
+#achievements {
+  padding-bottom: 0;
+  height: 25rem;
+}
+
+#demo {
+  height: 20rem;
+}
+
+.achievements-lists h5 {
+  line-height: 2rem;
+  text-align: justify;
+}
+
+.slide-div {
+  background-color: #343a40;
+  padding: 0 50px;
+  margin-left: 50px;
+  position: relative;
+  bottom: 30px;
+}
+
+.carousel {
+  position: relative;
+  bottom: 25px;
+}
+
+.carousel-item img {
+  margin: 0 auto;
+  height: 380px;
+  width: 280px;
+  box-shadow: 0px 1px 5px black;
+  position: relative;
+  bottom: 10px;
+}
+
+.carousel-control-prev-icon {
+  color: #333;
+}
+
+/*---------------------------------------------- Contact Form ------------------------------------*/
+
+#contact {
+  margin-top: 10rem;
+  padding: 0 20rem;
+}
+
+#contact div h2 {
+  position: relative;
+  bottom: 2rem;
+}
+
+#contact-form {
+  position: relative;
+  bottom: 2rem;
+}
+
+.form-group label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.form-control {
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.formError {
+  color: red;
+  position: relative;
+  left: 10px;
+}
+
+.btn-primary {
+  background-color: #343a40;
+  border-color: #343a40;
+  font-size: 100%;
+  font-weight: 500;
+  width: 10%;
+  position: relative;
+  top: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #e1d9d9;
+  color: black;
+  border-color: #575454;
+}
+
+
+/*-------------------------------------------------- Footer----------------------------------------- */
+.footer {
+  height: 15.5rem;
+  background-color: #343a40;
+  color: #fff;
+  padding: 50px 0;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.refLink{
+  text-decoration: none;
+  padding:0 1rem;
+  margin-left:0;
+  margin-right:0;
+}
+
+.fa-brands{
+  margin-left:0.5rem;
+}
+
+.footer p {
+  font-size: 14px;
+  position:relative;
+  top:2.5rem;
+}
+
+
+/* ---------------------------------------Handling Responsiveness-------------------------------------- */
+
+@media (max-width: 767px) {
+  /* Styles for small screens (e.g., smartphones) */
+  .navbar-nav {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .navbar-collapse {
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .section h2 {
+    font-size: 24px;
+  }
+
+  .col-md-2,
+  .col-md-10 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #extras p{
+    position:relative;
+    left:1.5rem;
+  }
+
+  .desc p{
+    margin:0 1rem 30px;
+  }
+
+  .col-md-2 {
+    margin-right: 0;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+
+  .certifications h5 {
+    font-size: 1rem;
+  }
+
+  .certifications p{
+    text-indent: 0;
+    padding-left: 1rem;
+    font-size: 0.8rem;
+    opacity: 70%;
+  }
+
+  .achievements-lists ul li h5{
+    font-size: 1rem;
+  }
+
+  .slide-div{
+   visibility:hidden;
+  }
+
+  #contact {
+    padding: 0 10px;
+    margin-top:160px;
+  }
+
+  .btn-primary {
+    font-size:80%;
+    width:20%;
+  }
+}
+
+
